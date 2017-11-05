@@ -1,16 +1,12 @@
 package org.automation.testing.base;
 
 import org.openqa.selenium.WebDriver;
-import org.automationtesting.excelreport.Xl;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
-
 import com.automation.testing.utility.Utility;
-import com.relevantcodes.extentreports.ExtentReports;
-import com.relevantcodes.extentreports.ExtentTest;
+
 
 
 public class DriverInstance {
@@ -38,8 +34,8 @@ public class DriverInstance {
         driver.quit();
      }
 	
-	@AfterSuite
-	public void generatereport() throws Exception{
-		Xl.generateReport("Report_Excel.xlsx");
-	}
+	//@AfterSuite
+	//public void generatereport() throws Exception{
+		//Xl.generateReport("Report_Excel.xlsx");
+//	}
    }
