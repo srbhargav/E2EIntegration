@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="3.981">
+  <properties />
+  
+  
+            <testcase name="tc_001_login_functionality" time="1.240" classname="org.automation.testing.testcases.TC_001_ValidateLoginFunctionality" />
+                <testcase name="tc_001_login_functionality" time="1.565" classname="org.automation.testing.testcases.TC_001_ValidateLoginFunctionality" />
+                <testcase name="tc_001_login_functionality" time="1.176" classname="org.automation.testing.testcases.TC_001_ValidateLoginFunctionality" />
+      
+</testsuite>

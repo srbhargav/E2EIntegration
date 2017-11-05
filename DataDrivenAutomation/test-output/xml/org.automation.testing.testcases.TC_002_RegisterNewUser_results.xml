@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.896">
+  <properties />
+  
+  
+            <testcase name="tc_002_RegsiterNewUser" time="0.993" classname="org.automation.testing.testcases.TC_002_RegisterNewUser" />
+                <testcase name="tc_002_RegsiterNewUser" time="0.959" classname="org.automation.testing.testcases.TC_002_RegisterNewUser" />
+                <testcase name="tc_002_RegsiterNewUser" time="0.944" classname="org.automation.testing.testcases.TC_002_RegisterNewUser" />
+      
+</testsuite>
